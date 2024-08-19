@@ -4,6 +4,7 @@
   "description": "репозиторий для экспериментов над инструментами",
   "main": "index.js",
   "scripts": {
+    "lint": "npm run lint:js",
     "lint:js": "eslint ./source",
     "prepare": "husky"
   },
@@ -12,9 +13,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "8.57.0",
-    "eslint-config-htmlacademy": "10.0.1",
-    "husky": "9.1.4",
-    "lint-staged": "15.2.9"
-  }
+      "@commitlint/cli": "^19.4.0",
+      "@commitlint/config-conventional": "^19.2.2",
+      "eslint": "8.57.0",
+      "eslint-config-htmlacademy": "10.0.1",
+      "husky": "9.1.4",
+      "lint-staged": "15.2.9"
+    },
+    "commitlint": {
+      "extends": ["@commitlint/config-conventional"]
+    }
 }

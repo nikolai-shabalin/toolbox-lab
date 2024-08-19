@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "type-enum": [2, "always", ["feat", "fix", "chore", "refactor", "perf", "docs", "test", "style", "build"]],
+    "type-case": [0, "always", ""],
+    "type-empty": [0, "always", ""],
+    "scope-enum": [0, "always", []],
+    "scope-case": [0, "always", ""],
+    "scope-empty": [0, "always", ""],
+    "subject-case": [0, "always", ""],
+    "subject-empty": [0, "always", ""],
+    "subject-full-stop": [0, "always", ""],
+    "header-max-length": [0, "always", 72]
+  }
+}
